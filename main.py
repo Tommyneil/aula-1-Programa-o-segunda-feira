@@ -1,11 +1,17 @@
-idade = int(input("Digite sua idade: "))
-anos_t = int(input("Digite seus anos trabalhados: "))
+#exercicio 6
 
-if idade >= 65:
-    print("Pode aposentar.")
-elif anos_t >= 30:
-    print("Pode aposentar.")
-elif idade >= 60 and anos_t >= 25:
-    print("Pode aposentar")
-else:
-    print("Não Pode aposentar")
+lista = [1, 2, 3, 4, 5]
+num = lista.append(int(input(f"Digite um número qualquer: ")))
+
+print(f"{lista}")
+
+
+quant = lista.count(lista[5])
+
+print(f"O valor {lista[5]} aparece {quant} vezes na lista")
+
+
+
+
+
+
